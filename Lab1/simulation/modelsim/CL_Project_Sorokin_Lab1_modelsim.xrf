@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, D:/Quartus/CL_Project_Sorokin_Lab1/CL_Project_Sorokin_Lab1.bdf
+source_file = 1, D:/Quartus/CL_Project_Sorokin_Lab1/LC1.bdf
+source_file = 1, D:/Quartus/CL_Project_Sorokin_Lab1/db/CL_Project_Sorokin_Lab1.cbx.xml
+design_name = CL_Project_Sorokin_Lab1
+instance = comp, \y~output\, y~output, CL_Project_Sorokin_Lab1, 1
+instance = comp, \y_1~output\, y_1~output, CL_Project_Sorokin_Lab1, 1
+instance = comp, \x1~input\, x1~input, CL_Project_Sorokin_Lab1, 1
+instance = comp, \x1_1~input\, x1_1~input, CL_Project_Sorokin_Lab1, 1
+instance = comp, \x3~input\, x3~input, CL_Project_Sorokin_Lab1, 1
+instance = comp, \x2~input\, x2~input, CL_Project_Sorokin_Lab1, 1
+instance = comp, \x2_1~input\, x2_1~input, CL_Project_Sorokin_Lab1, 1
+instance = comp, \x3_1~input\, x3_1~input, CL_Project_Sorokin_Lab1, 1

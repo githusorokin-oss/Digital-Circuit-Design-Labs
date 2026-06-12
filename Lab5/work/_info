@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+dD:\ModelSim\modelsim_ase\examples\Lab4_Sorokin
+vmux8_en
+I1GIkQM46L2XVecH?[WjGE0
+Vz6oS7kFi[6IA]?kYYk_kL2
+Z0 dD:\ModelSim\modelsim_ase\examples\Lab5_Sorokin
+w1781179272
+8D:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/mux8_en.v
+FD:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/mux8_en.v
+L0 3
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 hK0G6PUj[IS;2INhbmf[G3
+!s85 0
+!s101 -O0
+vtest_mux8_en
+!s100 ZOmz^=f05fLBh[j8YWO^O0
+IU2NH[h?@;FlNzR^UNa<nT2
+VHjmI@1Ff]8XKGh;1oAH5F1
+Z4 dD:\ModelSim\modelsim_ase\examples\Lab5_Sorokin
+w1781179276
+8D:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/test_mux8_en.v
+FD:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/test_mux8_en.v
+L0 3
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3

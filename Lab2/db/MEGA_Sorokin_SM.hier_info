@@ -1,0 +1,559 @@
+|MEGA_Sorokin_SM
+z1 <= MEGA_SM:inst.result[0]
+x1 => MEGA_SM:inst.dataa[0]
+y1 => MEGA_SM:inst.datab[0]
+z2 <= MEGA_SM:inst12.result[0]
+x2 => MEGA_SM:inst12.dataa[0]
+y2 => MEGA_SM:inst12.datab[0]
+z3 <= MEGA_SM:inst13.result[0]
+x3 => MEGA_SM:inst13.dataa[0]
+y3 => MEGA_SM:inst13.datab[0]
+z4 <= MEGA_SM:inst14.result[0]
+x4 => MEGA_SM:inst14.dataa[0]
+y4 => MEGA_SM:inst14.datab[0]
+z5 <= MEGA_SM:inst15.result[0]
+x5 => MEGA_SM:inst15.dataa[0]
+y5 => MEGA_SM:inst15.datab[0]
+z6 <= MEGA_SM:inst16.result[0]
+x6 => MEGA_SM:inst16.dataa[0]
+y6 => MEGA_SM:inst16.datab[0]
+z7 <= MEGA_SM:inst17.result[0]
+x7 => MEGA_SM:inst17.dataa[0]
+y7 => MEGA_SM:inst17.datab[0]
+z8 <= MEGA_SM:inst18.result[0]
+x8 => MEGA_SM:inst18.dataa[0]
+y8 => MEGA_SM:inst18.datab[0]
+z9 <= MEGA_SM:inst19.result[0]
+x9 => MEGA_SM:inst19.dataa[0]
+y9 => MEGA_SM:inst19.datab[0]
+z11 <= MEGA_SM:inst21.result[0]
+x10 => MEGA_SM:inst20.dataa[0]
+y10 => MEGA_SM:inst20.datab[0]
+x11 => MEGA_SM:inst21.dataa[0]
+y11 => MEGA_SM:inst21.datab[0]
+z12 <= MEGA_SM:inst22.result[0]
+x12 => MEGA_SM:inst22.dataa[0]
+y12 => MEGA_SM:inst22.datab[0]
+z13 <= MEGA_SM:inst24.result[0]
+x13 => MEGA_SM:inst24.dataa[0]
+y13 => MEGA_SM:inst24.datab[0]
+z10 <= MEGA_SM:inst20.result[0]
+z14 <= MEGA_SM:inst25.result[0]
+x14 => MEGA_SM:inst25.dataa[0]
+y14 => MEGA_SM:inst25.datab[0]
+z15 <= MEGA_SM:inst23.result[0]
+x15 => MEGA_SM:inst23.dataa[0]
+y15 => MEGA_SM:inst23.datab[0]
+z_cout <= MEGA_SM:inst23.cout
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst12
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst12|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst12|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst13
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst13|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst13|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst14
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst14|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst14|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst15
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst15|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst15|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst16
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst16|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst16|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst17
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst17|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst17|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst18
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst18|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst18|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst19
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst19|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst19|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst21
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst21|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst21|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst20
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst20|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst20|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst22
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst22|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst22|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst24
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst24|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst24|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst25
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst25|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst25|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst23
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst23|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_3hi:auto_generated.dataa[0]
+datab[0] => add_sub_3hi:auto_generated.datab[0]
+cin => add_sub_3hi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_3hi:auto_generated.result[0]
+cout <= add_sub_3hi:auto_generated.cout
+overflow <= <GND>
+
+
+|MEGA_Sorokin_SM|MEGA_SM:inst23|lpm_add_sub:LPM_ADD_SUB_component|add_sub_3hi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

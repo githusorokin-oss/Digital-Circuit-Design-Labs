@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CL_Project_Sorokin_Lab2_2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CL_Project_Sorokin_Lab2_2|SM2_Sorokin_2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+	</PROJECT>
+	<PROJECT NAME="CL_Project_Sorokin_Lab2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CL_Project_Sorokin_Lab2|SM2_Sorokin:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_96i.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

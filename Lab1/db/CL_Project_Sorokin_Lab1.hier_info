@@ -1,0 +1,18 @@
+|CL_Project_Sorokin_Lab1
+y <= LC1:inst.y
+x3 => LC1:inst.x3
+x2 => LC1:inst.x2
+x1 => LC1:inst.x1
+y_1 <= x1_1.DB_MAX_OUTPUT_PORT_TYPE
+x1_1 => y_1.DATAIN
+x2_1 => ~NO_FANOUT~
+x3_1 => ~NO_FANOUT~
+
+
+|CL_Project_Sorokin_Lab1|LC1:inst
+y <= x1.DB_MAX_OUTPUT_PORT_TYPE
+x1 => y.DATAIN
+x3 => ~NO_FANOUT~
+x2 => ~NO_FANOUT~
+
+

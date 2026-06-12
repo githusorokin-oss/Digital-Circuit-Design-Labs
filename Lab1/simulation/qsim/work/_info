@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Quartus\CL_Project_Sorokin_Lab1\simulation\qsim
+vCL_Project_Sorokin_Lab1
+Z1 !s100 i;EodFoMP]9:]o24UE:?F2
+Z2 ImE[HX8HLUdj6>CoeNlBN>0
+Z3 VBl;:IcRQKncn73GK8@jc_2
+Z4 dD:\Quartus\CL_Project_Sorokin_Lab1\simulation\qsim
+Z5 w1781174819
+Z6 8CL_Project_Sorokin_Lab1.vo
+Z7 FCL_Project_Sorokin_Lab1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|CL_Project_Sorokin_Lab1.vo|
+Z10 o-work work -O0
+Z11 n@c@l_@project_@sorokin_@lab1
+!i10b 1
+!s85 0
+Z12 !s108 1781174820.142000
+Z13 !s107 CL_Project_Sorokin_Lab1.vo|
+!s101 -O0
+vCL_Project_Sorokin_Lab1_vlg_check_tst
+!i10b 1
+Z14 !s100 Bz`FdO@:c3LG07VRfca6F0
+Z15 IR_`>5BJlSZ^XSLX1mzbm;3
+Z16 V:a:KX2Z;_d1L6H2Q=8ii00
+R4
+Z17 w1781174818
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z20 !s108 1781174820.308000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 n@c@l_@project_@sorokin_@lab1_vlg_check_tst
+vCL_Project_Sorokin_Lab1_vlg_sample_tst
+!i10b 1
+Z24 !s100 ?e@b=UN[4a0dc0=U<kd_l3
+Z25 I@AV?J]EM_NCSRR@BKeO^P0
+Z26 V:M<[OcaGe82G^m^jQLARV0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@c@l_@project_@sorokin_@lab1_vlg_sample_tst
+vCL_Project_Sorokin_Lab1_vlg_vec_tst
+!i10b 1
+Z28 !s100 Z@LGAK2R3=o8C>@G<ZcGD0
+Z29 IWVeMe2zD:;LU67j@j3P?X0
+Z30 VU4loonR@lJ<4d9L1CU7OT2
+R4
+R17
+R18
+R19
+Z31 L0 189
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@c@l_@project_@sorokin_@lab1_vlg_vec_tst

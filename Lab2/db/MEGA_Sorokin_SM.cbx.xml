@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MEGA_Sorokin_SM">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst15|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst19|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst20|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst24|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst12|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst16|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst21|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst25|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst13|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst17|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst22|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst14|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst18|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MEGA_Sorokin_SM|MEGA_SM:inst23|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3hi.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

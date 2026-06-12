@@ -1,0 +1,48 @@
+|CL_Project_Sorokin_Lab2
+outs <= SM2_Sorokin:inst.result[0]
+inx => SM1_Sorokin:inst1.inx
+iny => SM1_Sorokin:inst1.iny
+inz => SM2_Sorokin:inst.datab[0]
+outp <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CL_Project_Sorokin_Lab2|SM2_Sorokin:inst
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|CL_Project_Sorokin_Lab2|SM2_Sorokin:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_96i:auto_generated.dataa[0]
+datab[0] => add_sub_96i:auto_generated.datab[0]
+cin => ~NO_FANOUT~
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_96i:auto_generated.result[0]
+cout <= add_sub_96i:auto_generated.cout
+overflow <= <GND>
+
+
+|CL_Project_Sorokin_Lab2|SM2_Sorokin:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_96i:auto_generated
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CL_Project_Sorokin_Lab2|SM1_Sorokin:inst1
+outc <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+iny => inst3.IN0
+iny => inst.IN0
+inx => inst3.IN1
+inx => inst.IN1
+outq <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

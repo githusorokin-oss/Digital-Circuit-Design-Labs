@@ -1,0 +1,15 @@
+D:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/mux8_en.v {1 {vlog -work work -nocovercells D:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/mux8_en.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module mux8_en
+
+Top level modules:
+	mux8_en
+
+} {} {}} D:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/test_mux8_en.v {1 {vlog -work work -nocovercells D:/ModelSim/modelsim_ase/examples/Lab5_Sorokin/test_mux8_en.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module test_mux8_en
+
+Top level modules:
+	test_mux8_en
+
+} {} {}}
